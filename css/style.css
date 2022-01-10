@@ -1,0 +1,117 @@
+
+body{
+    width: 100%;
+}
+
+body .long{
+    background: url('/images/pattern-background-desktop.svg')top center no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box{
+    background-color: white;
+    border-radius: 30px;
+}
+.image-box{
+    width: 450px;
+    height: 220px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px
+}
+h1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.box .paragraph-content{
+    color: hsl(224, 23%, 55%);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+main{
+    height: 450px;
+    width: 450px;
+}
+
+.box .price{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.box .price .background-price{
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    height: 80px;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.price .image-song{
+    display: flex;
+    align-self: center;
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.price .background-price .real-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.price .background-price .real-price p{
+    color: hsl(224, 23%, 55%);
+}
+
+.price .background-price a{
+    display: flex;
+    align-self: center;
+    margin-left: 30px;
+    color: hsl(245, 75%, 52%);
+    font-size: 16px;
+}
+
+.footer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer button{
+    display: flex;
+    width: 200px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 20px;
+    height: 50px;
+    width: 400px;
+    font-size:18px;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+.footer a{
+    display: flex;
+    align-self: center;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.footer button:hover{
+    cursor: pointer;
+
+}

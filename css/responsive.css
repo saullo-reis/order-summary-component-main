@@ -1,0 +1,36 @@
+@media (max-width:576px){
+    .box .image-box{
+        width: 100%;
+        height: 25%;
+    }
+    body .long{
+        width: 100%;
+        background: none;
+        background-color: hsl(224, 23%, 55%);
+    }
+
+    .box{
+        width: 375px;
+    }
+
+    h1{
+        font-size: 100%;
+        width: 375px;
+    }
+    
+    .box .content .paragraph-content{
+        width: 375px;
+    }
+
+    .price{
+        width: 375px;
+    }
+
+    .footer button{
+        width: 350px;
+
+    }
+    .footer{
+        width: 375px;
+    }
+}
